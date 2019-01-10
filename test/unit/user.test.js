@@ -2,7 +2,8 @@ const { assert } = require('chai');
 const User = require('../../lib/models/user');
 
 describe('User model', () => {
-    it('Validates User Model', () => {
+
+    it('Validates User model', () => {
         const data = {
             name: 'Mark Bell',
             email: 'test@gmail.com'
