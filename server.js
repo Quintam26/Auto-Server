@@ -7,7 +7,7 @@ const connect = require('./lib/util/connect');
 const PORT = process.env.PORT || 3000;
 
 //This env name "MONGODB_URI" will be used by Heroku when mLab is implemented
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/autosearch';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/auto-search';
 
 connect(MONGODB_URI);
 
